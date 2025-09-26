@@ -8,9 +8,9 @@ body{
 }
 
 header{
-	background-color: #333;
+	background-color: #410804;
 	height: 3em;
-	color: #eb7373;
+	color: #db1919;
 	margin-bottom: 1em;
 }
 
@@ -47,7 +47,7 @@ section h2{
 	font-size: 3em;
 	display: block;
 	padding-bottom: .5em;
-	border-bottom: 1px solid #48d6ca;
+	border-bottom: 1px solid #296fa8;
 	margin-bottom: .5em;
 }
 
@@ -61,17 +61,17 @@ table{
 td, th {
 	padding: .7em;
 	margin: 0;
-	border: 1px solid #ccc;
+	border: 1px solid #66c2ff;
 	text-align: center;
 }
 
 th{
 	font-weight: bold;
-	background-color: #EEE;
+	background-color: #0b395f;
 }
 
 label{
-	color: #555;
+	color: #2a43ce;
 	display: block;
 	margin-bottom: .2em;
 }
@@ -80,7 +80,7 @@ label{
 	margin: 0;
 	padding-bottom: 1em;
 	width: 100%;
-	border: 1px solid #ccc;
+	border: 1px solid #dde931;
 	padding: .7em;
 	width: 100%;
 }
