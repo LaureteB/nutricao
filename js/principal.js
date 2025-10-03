@@ -3,3 +3,5 @@
             console.log(titulo);
             console.log(titulo.textContent);
             titulo.textContent = ("LAuraba");
+
+            var paciente = document.querySelector("#primeiro-paciente")
