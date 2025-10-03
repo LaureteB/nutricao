@@ -5,4 +5,7 @@
             titulo.textContent = ("LAuraba");
 
             var paciente = document.querySelector("#primeiro-paciente");
-            console.log(paciente);
+            console.log(paciente);//tr
+
+            var tpeso = paciente.querySelector(".info-peso");
+            console.log(tdPeso);//peso
