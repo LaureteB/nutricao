@@ -5,10 +5,9 @@
             titulo.textContent = ("Laura nutricão");
 
             var paciente = document.querySelector("#primeiro-paciente");
-            var tdPaciente = document.querySelector("info-nome");
-            var nome = tdPaciente.textContent;
+            var tdNome = document.querySelector("info-nome");
+            var nome = tdNome.textContent;
             console.log(nome);
-
 
             var tdPeso = paciente.querySelector(".info-peso");
             var peso = tdPeso.textContent;
@@ -17,3 +16,5 @@
             var tdAltura = document.querySelector(".info-altura");
             var altura = tdAltura.textContent;
             console.log(altura);
+
+            var imc = peso / (altura * altura);
