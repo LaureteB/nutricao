@@ -11,9 +11,9 @@
             console.log(tdPeso);
 
             var peso = tdPeso.textContent;
-            console.log(paciente)
-            console.log(peso)
+            console.log(paciente);
+            console.log(peso);
 
-            var tdAltura = document.querySelector(".info-alura")
+            var tdAltura = document.querySelector(".info-alura");
             var altura = tdAltura.textContent;
             console.log(altura);
