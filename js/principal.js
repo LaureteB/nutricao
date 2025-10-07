@@ -4,9 +4,10 @@
             console.log(titulo.textContent);
             titulo.textContent = ("Laura nutricão");
 
-            var tdPaciente = document.querySelector("#primeiro-paciente");
-            var paciente = tdPaciente.textContent;
-            console.log(paciente);
+            var paciente = document.querySelector("#primeiro-paciente");
+            var tdPaciente = document.querySelector("info-nome");
+            var nome = tdPaciente.textContent;
+            console.log(nome);
 
 
             var tdPeso = paciente.querySelector(".info-peso");
