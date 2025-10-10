@@ -24,14 +24,16 @@
             var alturaEhValida = true;
 
 
-            if (peso <0 || peso > 1000){
+            if (peso <=0 || peso >= 1000){
                 console.log("peso inválido");
                 pesoEhValido = false;
+                tdImc.textContent="Peso Invalido";
             }
 
-            if (altura < 0 || altura > 3.00){
+            if (altura <= 0 || altura >= 3.00){
                 console.log("Altura inválida");
                 alturaEhValida = false;
+                tdImc.textContent="Altura Inválida!";
             }
 
             if(alturaEhValida && pesoEhValido){
