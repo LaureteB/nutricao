@@ -5,6 +5,7 @@ console.log(titulo.textContent);
 titulo.textContent = ("Laura nutricão");
 
 var paciente = paciente.querySelectorAll(".paciente");
+
 for (var i = 0; i < paciente.length; i++) {
     var paciente = paciente[i];
     var tdPeso = paciente.querySelector(".info-peso");
