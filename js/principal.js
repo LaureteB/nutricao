@@ -7,7 +7,7 @@ titulo.textContent = ("Laura nutricão");
 var pacientes = document.querySelectorAll(".paciente");
 
 for (var i = 0; i < paciente.length; i++) {
-    var paciente = paciente[i];
+    var paciente = pacientes[i];
     var tdPeso = paciente.querySelector(".info-peso");
     var peso = tdPeso.textContent;
 
