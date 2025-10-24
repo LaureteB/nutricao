@@ -2,7 +2,7 @@
 var titulo = document.querySelector("h1");
 console.log(titulo);
 console.log(titulo.textContent);
-titulo.textContent = ("Laura nutricão");
+titulo.textContent = ("NUTRA-SE COM LAURA BOEING");
 
 var pacientes = document.querySelectorAll(".paciente");
 
