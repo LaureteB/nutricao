@@ -8,7 +8,7 @@ body{
 }
 
 header{
-	background-color: #122b61;
+	background-color: #0049e7;
 	height: 3em;
 	color: #b8f4ff;
 	margin-bottom: 1em;
@@ -47,7 +47,7 @@ section h2{
 	font-size: 3em;
 	display: block;
 	padding-bottom: .5em;
-	border-bottom: 1px solid #296fa8;
+	border-bottom: 1px solid #1bafff;
 	margin-bottom: .5em;
 }
 
@@ -105,7 +105,7 @@ button{
 	margin: 0;
 	margin-top: -3px;
 	color: #fff;
-	background-color:#0c8cd3;
+	background-color:#1bafff;
 	border-color: #9cf8ff;
 	width: 20%;
     display: block;
